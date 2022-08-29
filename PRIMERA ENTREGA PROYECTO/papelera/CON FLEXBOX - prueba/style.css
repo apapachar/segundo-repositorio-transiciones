@@ -1,0 +1,101 @@
+/* inicio de sección común*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.pie {
+    background-color: white;
+    color: #696969;
+    padding: 20px 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* fin de sección común*/
+/* inicio sección inicio*/
+.yoga2-img {
+    background-image: url(img/yoga2.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.yoga2-img p {
+    font-size: 20px;
+}
+
+.yoga2-img h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+/* fin sección inicio*/
+/* inicio sección sobre la práctica */
+.yoga3-img {
+    background-image: url(img/yoga3.png);
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+.pie-practica {
+    background-color: #fff;
+    color: #696969;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+/* fin sección sobre la práctica */
+
+@media (max-width: 768px){
+    header{
+       flex-direction: column;
+}
+nav a {
+    width: 60%;
+}
+.yoga3-img {
+    height: 50%;
+    width: 100%;
+    background-position: center;
+}
+}
